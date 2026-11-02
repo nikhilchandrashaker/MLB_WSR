@@ -1,0 +1,15 @@
+field,definition,source_or_calculation,type
+game_date/date,Game date,Statcast source,Source
+batter/batter_id,MLBAM batter ID,Statcast source,Source
+pitcher/pitcher_id,MLBAM pitcher ID,Statcast source,Source
+events,Plate appearance result; filter home_run,Statcast source,Source
+launch_speed,Batted-ball exit velocity (mph),Statcast source,Source
+launch_angle,Batted-ball launch angle (degrees),Statcast source,Source
+hit_distance_sc,Statcast tracked hit distance (feet),Statcast source,Source
+hc_x/hc_y,Statcast hit-location coordinates,Statcast source,Source
+batting_team,Team batting in that half-inning,home/away team + inning_topbot,Derived
+parks_cleared,Count of simulated parks clearing wall,30-park simulation,Derived
+wsr_classification,WSR class or UNMODELED,parks_cleared thresholds,Derived
+wsr_pct,Full-denominator WSR percentage,100 × wall-scraper HR / total HR; only official at full coverage,Derived
+modeled_wsr_pct,Modeled-only WSR diagnostic,100 × wall-scraper HR / modeled HR,Derived
+model_coverage_pct,Modeled HR / total HR × 100,Summary aggregation,Derived

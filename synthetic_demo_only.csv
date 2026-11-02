@@ -1,0 +1,3 @@
+hr_record_id,season,batter_id,player_name,wsr_classification,parks_cleared,data_status
+SYNTH_001,2025,999001,Synthetic Example,WALL_SCRAPER,3,SYNTHETIC_NOT_REAL_MLB
+SYNTH_002,2025,999001,Synthetic Example,NO_DOUBTER,30,SYNTHETIC_NOT_REAL_MLB
